@@ -2,13 +2,13 @@ class Dog
   @@all = []
 
   def initialize
-    @puppy = puppy
+    @name = name
     @@all << self
   end
 
   def self.all
-    @@all.each do |puppy|
-      puts puppy.name
+    @@all.each do |name|
+      puts dog.name
     end
   end
 end
